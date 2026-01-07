@@ -1,0 +1,28 @@
+# 轮播设置
+download-port: 8080
+display:
+  world: "showcase"
+  origin:
+    x: 0
+    y: 100
+    z: 0
+  spacing: 200
+  max-per-row: 5
+carousel:
+  interval-seconds: 10
+  display-world: showcase
+  paste-air: false
+
+# 展示点（支持多个）
+display-points:
+  - x: 100
+    y: 80
+    z: 100
+  - x: 130
+    y: 80
+    z: 100
+
+# 结构文件存储
+structure:
+  format: schematic   # schematic | sponge
+  save-path: structures/builds

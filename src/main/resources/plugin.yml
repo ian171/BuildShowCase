@@ -1,0 +1,22 @@
+name: BuildShowcase
+version: '1.0-SNAPSHOT'
+main: net.chen.buildShowcase.BuildShowcasePlugin
+author: chen
+api-version: '1.21'
+depend:
+  - FastAsyncWorldEdit
+  - PlotSquared
+commands:
+  buildsubmit:
+    description: "submit your command"
+    usage: "/buildsubmit <arg>"
+    aliases: [bds]
+    permission: bsp.buildsubmit
+    permission-message: "You do not have permission to use this command"
+  buildreview:
+    description: "review your command"
+    usage: "/buildreview <args>"
+    aliases:
+      - brv
+    permission: bsp.buildreview
+    permission-message: "You do not have permission to use this command"
